@@ -21,25 +21,16 @@ export class SidebarService {
         {
           titulo: 'Charts',
           url: 'grafica1'
-        }
-      ]
-    },
-    {
-      titulo: 'Consulta',
-      icono: 'mdi mdi-gauge',
-      submenu: [
-        {
-          titulo: 'Home',
-          url: '/'
         },
         {
-          titulo: 'Progress Bar',
-          url: 'progress'
+          titulo: 'Promesas',
+          url: 'promesas'
         },
         {
-          titulo: 'Charts',
-          url: 'grafica1'
+          titulo: 'Rxjs',
+          url: 'rxjs'
         }
+        
       ]
     }
   ];
