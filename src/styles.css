@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+#buttongoogle{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor{
+    cursor: pointer;
+}
