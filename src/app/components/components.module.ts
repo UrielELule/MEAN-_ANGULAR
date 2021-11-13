@@ -5,19 +5,22 @@ import { ChartsModule } from 'ng2-charts';
 
 import { IncrementadorComponent } from './incrementador/incrementador.component';
 import { PastelComponent } from './pastel/pastel.component';
+import { ModalImagesComponent } from './modal-images/modal-images.component';
 
 
 
 @NgModule({
-  declarations: [IncrementadorComponent, PastelComponent],
+  declarations: [IncrementadorComponent, PastelComponent, ModalImagesComponent],
   imports: [
     CommonModule,
     FormsModule,
-    ChartsModule
+    ChartsModule,
+   
   ],
   exports: [
     IncrementadorComponent,
-    PastelComponent
+    PastelComponent,
+    ModalImagesComponent
   ]
 })
 export class ComponentsModule { }
